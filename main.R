@@ -8,6 +8,7 @@ library(MASS)
 library(foreach)
 library(umap)
 
+print("Hello World")
 
 KL <- function(u1, u2, std1, std2){
   kl_divergence <- log(std1 / std2) + (std2^2 + (u1 - u2)^2) / (2 * std1^2) - 0.5
