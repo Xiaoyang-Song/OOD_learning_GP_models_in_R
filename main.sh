@@ -13,4 +13,4 @@
 # cd /scratch/sunwbgt_root/sunwbgt09/xysong/OOD_learning_GP_models_in_R/
 
 module load R
-Rscript --save main.R "MNIST" 100 100 16
+Rscript --save main.R "MNIST" 1000 1000 16
