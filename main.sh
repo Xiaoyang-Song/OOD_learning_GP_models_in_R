@@ -10,7 +10,7 @@
 #SBATCH --partition=standard
 #SBATCH --output=/scratch/sunwbgt_root/sunwbgt98/xysong/OOD_learning_GP_models_in_R/results.log
 
-
+cd /home/rivachen/OOD_learning_GP_models_in_R/
 
 module load R
 R CMD BATCH --no--save --no--restore main.R
