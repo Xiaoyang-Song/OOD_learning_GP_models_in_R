@@ -340,7 +340,7 @@ args <- commandArgs(trailingOnly = TRUE)
 InD_Dataset = args[1]
 n_tr = args[2]
 n_ts = args[3]
-f = args[4]
+f = as.integer(args[4])
 if (InD_Dataset == "MNIST"){
     OOD_Datasets = c("FashionMNIST", "Cifar_10", "SVHN", "Imagenet_r", "Imagenet_c")
 } else{
