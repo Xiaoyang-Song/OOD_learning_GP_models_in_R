@@ -13,4 +13,4 @@
 # cd /scratch/sunwbgt_root/sunwbgt09/xysong/OOD_learning_GP_models_in_R/
 
 module load R
-R CMD BATCH --no--save --no--restore main.R
+R main.R
